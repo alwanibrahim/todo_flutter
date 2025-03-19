@@ -1,0 +1,47 @@
+// final Dio _dio = Dio();
+  // final baseUrl = 'https://jsonplaceholder.typicode.com';
+
+  // //*show
+  // Future<List<Post>> fetcPosts() async {
+  //   try {
+  //     Response response = await _dio.get('$baseUrl/posts');
+  //     List<dynamic> data = response.data;
+  //     return data.map((n) => Post.fromJson(n)).toList();
+  //   } catch (e) {
+  //     throw Exception('error: $e');
+  //   }
+  // }
+
+  // //*add
+  // Future<Post> createPost(String title, String body) async {
+  //   try {
+  //     Response response = await _dio.post(
+  //       '$baseUrl/posts',
+  //       data: {'title': title, 'body': body},
+  //     );
+  //     return Post.fromJson(response.data);
+  //   } catch (e) {
+  //     throw Exception('Error creating post: $e');
+  //   }
+  // }
+
+  // //*edit
+  // Future<void> updatePost(int id, String title, String body) async {
+  //   try {
+  //     await _dio.put(
+  //       '$baseUrl/posts/$id',
+  //       data: {"title": title, "body": body},
+  //     );
+  //   } catch (e) {
+  //     throw Exception('Error updating post: $e');
+  //   }
+  // }
+
+  // //*delete
+  // Future<void> deletePost(int id) async {
+  //   try {
+  //     await _dio.delete('$baseUrl/posts/$id');
+  //   } catch (e) {
+  //     throw Exception('Error deleting post: $e');
+  //   }
+  // }
